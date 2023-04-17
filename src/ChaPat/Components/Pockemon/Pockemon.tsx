@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { useGetPokemonByNameQuery } from '../../Config/PockemonServices/api'
+import { useGetPokemonByNameQuery } from '../../Config/API/PockemonServices/api'
 
 export default function Pockemon() {
   // Using a query hook automatically fetches data and returns query values

@@ -1,6 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit'
 import rootReducer from "../../ChaPat/Config/reducer/rootReducer "
-import { pokemonApi } from '../Config/PockemonServices/api';
+import { pokemonApi } from '../Config/API/PockemonServices/api';
 import { useDispatch } from 'react-redux';
 
 
